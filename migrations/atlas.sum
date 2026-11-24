@@ -1,0 +1,5 @@
+h1:ZjHy/hGM4T3oLmOV0VA/tCFwn//xHQKwmRsUnhsX6cM=
+20261121091503_add_users_table.sql h1:90Xhcov4BUb+tZsSiRObuWj2DKTxPC+lFc3EaZpA+Mg=
+20261121092650_add_roles_table.sql h1:2TTLEVYMaBQ82RpQOP+if5MjNagXQl1mmHzZS/S8gNo=
+20261121094828_add_user_roles_table.sql h1:50ON0HFg+EJ8YZNqgHA1TN3Z0K2jTWQ9Tcx05uNNAa8=
+20261121095725_add_role_permissions_table.sql h1:XF9LGaNdsDa+7YJVN9rSi4L8RkArqPvYxl4/wSnWzh0=

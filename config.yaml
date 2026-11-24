@@ -1,0 +1,42 @@
+app:
+  env: development
+  port: 8080
+  host: localhost
+  debug: true
+  api_version: v1
+  api_prefix: /api
+  
+log:
+  level: info
+
+postgres:
+  master:
+    host: localhost
+    port: 5492
+    user: ai-agent
+    password: ai-agent
+    database: ai-agent-db
+    ssl_mode: disable
+    max_open_conns: 10
+    max_idle_conns: 5
+
+  slaves:
+    host: localhost
+    port: 5492
+    user: ai-agent
+    password: ai-agent
+    database: ai-agent-db
+    ssl_mode: disable
+    max_open_conns: 10
+    max_idle_conns: 5
+
+redis:  
+  host: localhost
+  port: 6375
+  password: 
+  db: 0
+
+jwt:
+  access_token_secret: ai-agent-secret
+  access_token_ttl: 900
+  refresh_token_ttl: 604800

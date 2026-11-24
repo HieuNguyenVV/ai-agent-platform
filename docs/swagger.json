@@ -1,0 +1,35 @@
+{
+    "schemes": [
+        "http"
+    ],
+    "swagger": "2.0",
+    "info": {
+        "description": "AI Agent Platform",
+        "title": "AI Agent Platform",
+        "contact": {
+            "name": "API Support",
+            "url": "https://github.com/AI-Agent-Platform/AI-Agent-Platform",
+            "email": "support@AI-Agent-Platform.com"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        },
+        "version": "1.0"
+    },
+    "host": "localhost:8080",
+    "basePath": "/api/v1",
+    "paths": {},
+    "securityDefinitions": {
+        "AccessToken": {
+            "type": "apiKey",
+            "name": "Authorization",
+            "in": "header"
+        },
+        "RefreshToken": {
+            "type": "apiKey",
+            "name": "Authorization",
+            "in": "header"
+        }
+    }
+}
